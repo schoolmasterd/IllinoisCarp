@@ -27,6 +27,8 @@ psi_bhcp.csv
 
 Sensitivity_Analyses_Schoolmaster_et_al.nb
 
+Sensitivity_Analyses_Schoolmaster_et_al.pdf
+
 CreateFigure1.R
 
 ## Description
@@ -34,6 +36,8 @@ CreateFigure1.R
 psi_bhcp.csv- Data for MCMC posterior distributions of average monthly transitions between pools. Columns are labeled as “ti_j” to indicate the transition from pool i to pool j.
 
 Sensitivity_Analyses_Schoolmaster_et_al.nb – Annotated Mathematica code used to conduct the sensitivity and elasticity analyses.
+
+Sensitivity_Analyses_Schoolmaster_et_al.pdf - Human readable version of the .nb file
 
 CreateFigure1.R - Annotated R code used to produce Figure 1
 
