@@ -34,7 +34,7 @@ MetaCarpFigure4_maker.R
 
 MetaCarpFigure6_maker.R
 
-# Data
+### Data
 
 psi_bhcp.csv
 
@@ -64,7 +64,7 @@ MetaCarpFigure4_maker.R - Annotated R code used to produce Figures 2, 3 & 5
 
 MetaCarpFigure6_maker.R - Annotated R code used to produce Figures 2, 3 & 5
 
-# Data
+### Data
 psi_bhcp.csv- Data for MCMC posterior distributions of average monthly transitions between pools. Columns are labeled as “ti_j” to indicate the transition from pool i to pool j.
 
 *_sensi_local_sur.csv - (where * may be either "phi" or "b") resampled sensitivites for phi on per captia growth rate of Dresden Island population.
