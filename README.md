@@ -39,15 +39,23 @@ MetaCarpFigure6_maker.R
 psi_bhcp.csv
 
 phi_sensi_Sur.csv
+
 b_sensi_Sur.csv
 
 phi_sensi_local_sur.csv
+
 phi_sensi_local_sur_se.csv
+
 phi_elast_local_sur.csv
+
 phi_elast_local_sur_se.csv
+
 b_sensi_local_sur.csv
+
 b_sensi_local_sur_se.csv
+
 b_elast_local_sur.csv
+
 b_elast_local_sur_se.csv
 
 
@@ -67,13 +75,13 @@ MetaCarpFigure6_maker.R - Annotated R code used to produce Figures 2, 3 & 5
 ### Data
 psi_bhcp.csv- Data for MCMC posterior distributions of average monthly transitions between pools. Columns are labeled as “ti_j” to indicate the transition from pool i to pool j.
 
-*_sensi_local_sur.csv - (where * may be either "phi" or "b") resampled sensitivites for phi on per captia growth rate of Dresden Island population.
+\*_sensi_local_sur.csv - (where * may be either "phi" or "b") resampled sensitivites for phi on per captia growth rate of Dresden Island population.
 
-*_sensi_local_sur_se.csv - (where * may be either "phi" or "b") standard errrors of resampled sensitivites for phi on per captia growth rate of Dresden Island population.
+\*_sensi_local_sur_se.csv - (where * may be either "phi" or "b") standard errrors of resampled sensitivites for phi on per captia growth rate of Dresden Island population.
 
-*_elast_local_sur.csv - (where * may be either "phi" or "b") resampled elasticites for phi on per captia growth rate of Dresden Island population.
+\*_elast_local_sur.csv - (where * may be either "phi" or "b") resampled elasticites for phi on per captia growth rate of Dresden Island population.
 
-*_elast_local_sur_se.csv - (where * may be either "phi" or "b") standard errrors of resampled elasticities for phi on per captia growth rate of Dresden Island population.
+\*_elast_local_sur_se.csv - (where * may be either "phi" or "b") standard errrors of resampled elasticities for phi on per captia growth rate of Dresden Island population.
 
 This draft material is distributed solely for purposes of scientific peer review. Its content is deliberative and predecisional, so it must not be disclosed or released by reviewers. Because the manuscript has not yet been approved for publication by the U.S. Geological Survey (USGS), it does not represent any official USGS finding or policy.
 
