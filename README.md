@@ -1,7 +1,7 @@
 # IllinoisCarp
 Data and Code to accompany EAP22-0071
 
-Schoolmaster Jr., DR, Coulter, AA, Kallis, JL, Glover, DC, Dettmers, JM and RA Erickson. Applying metapopulation models to guide invasive species control: Divergent strategies for limiting local versus regional populations of Bighead Carp in the Illinois River. Ecological Applications.
+Schoolmaster Jr., DR, Coulter, AA, Kallis, JL, Glover, DC, Dettmers, JM and RA Erickson. Analysis of per capita contributions from a spatial model provides strategies for controlling spread of invasive carp. Ecosphere.
 
 The data used for this work are publicly available at:
 
@@ -23,23 +23,57 @@ Alison.Coulter@sdstate.edu
 
 ## File list
 
-psi_bhcp.csv 
 
 Sensitivity_Analyses_Schoolmaster_et_al.nb
 
 Sensitivity_Analyses_Schoolmaster_et_al.pdf
 
-CreateFigure1.R
+MetaCarpFigure2_3_5_maker.R
+
+MetaCarpFigure4_maker.R
+
+MetaCarpFigure6_maker.R
+
+# Data
+
+psi_bhcp.csv
+
+phi_sensi_Sur.csv
+b_sensi_Sur.csv
+
+phi_sensi_local_sur.csv
+phi_sensi_local_sur_se.csv
+phi_elast_local_sur.csv
+phi_elast_local_sur_se.csv
+b_sensi_local_sur.csv
+b_sensi_local_sur_se.csv
+b_elast_local_sur.csv
+b_elast_local_sur_se.csv
+
+
 
 ## Description
-
-psi_bhcp.csv- Data for MCMC posterior distributions of average monthly transitions between pools. Columns are labeled as “ti_j” to indicate the transition from pool i to pool j.
 
 Sensitivity_Analyses_Schoolmaster_et_al.nb – Annotated Mathematica code used to conduct the sensitivity and elasticity analyses.
 
 Sensitivity_Analyses_Schoolmaster_et_al.pdf - Human readable version of the .nb file
 
-CreateFigure1.R - Annotated R code used to produce Figure 1
+MetaCarpFigure2_3_5_maker.R - Annotated R code used to produce Figures 2, 3 & 5
+
+MetaCarpFigure4_maker.R - Annotated R code used to produce Figures 2, 3 & 5
+
+MetaCarpFigure6_maker.R - Annotated R code used to produce Figures 2, 3 & 5
+
+# Data
+psi_bhcp.csv- Data for MCMC posterior distributions of average monthly transitions between pools. Columns are labeled as “ti_j” to indicate the transition from pool i to pool j.
+
+*_sensi_local_sur.csv - (where * may be either "phi" or "b") resampled sensitivites for phi on per captia growth rate of Dresden Island population.
+
+*_sensi_local_sur_se.csv - (where * may be either "phi" or "b") standard errrors of resampled sensitivites for phi on per captia growth rate of Dresden Island population.
+
+*_elast_local_sur.csv - (where * may be either "phi" or "b") resampled elasticites for phi on per captia growth rate of Dresden Island population.
+
+*_elast_local_sur_se.csv - (where * may be either "phi" or "b") standard errrors of resampled elasticities for phi on per captia growth rate of Dresden Island population.
 
 This draft material is distributed solely for purposes of scientific peer review. Its content is deliberative and predecisional, so it must not be disclosed or released by reviewers. Because the manuscript has not yet been approved for publication by the U.S. Geological Survey (USGS), it does not represent any official USGS finding or policy.
 
